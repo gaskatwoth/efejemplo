@@ -34,11 +34,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework">
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
-    <Reference Include="EntityFramework.SqlServer">
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -75,10 +80,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MiBd\demEf.cs" />
+    <Compile Include="MiBd\Departamento.cs" />
     <Compile Include="MiBd\Empleado.cs" />
     <Compile Include="Migrations\201510281525466_EmpleadoTabla.cs" />
     <Compile Include="Migrations\201510281525466_EmpleadoTabla.Designer.cs">
       <DependentUpon>201510281525466_EmpleadoTabla.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511061630127_depsejemplo.cs" />
+    <Compile Include="Migrations\201511061630127_depsejemplo.Designer.cs">
+      <DependentUpon>201511061630127_depsejemplo.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -96,6 +106,9 @@
     </Compile>
     <EmbeddedResource Include="Migrations\201510281525466_EmpleadoTabla.resx">
       <DependentUpon>201510281525466_EmpleadoTabla.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511061630127_depsejemplo.resx">
+      <DependentUpon>201511061630127_depsejemplo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

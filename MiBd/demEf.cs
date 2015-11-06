@@ -10,5 +10,6 @@ namespace wpf.MiBd
     public class demoEf : DbContext {
 
      public DbSet<Empleado> Empleados {get; set;}
+     public DbSet<Departamento> Departamentos { get; set; }
     }
 }

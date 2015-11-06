@@ -125,5 +125,22 @@ namespace wpf
         {
 
         }
+
+        private void depart_TextChanged(object sender, TextChangedEventArgs e)
+        {
+          
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            demoEf db = new demoEf();
+            Departamento dep = new Departamento();
+            dep.nombre = depart.Text;
+            db.Departamentos.Add(dep);
+            db.SaveChanges();
+        }
+           
+
+        }
     }
-}
+

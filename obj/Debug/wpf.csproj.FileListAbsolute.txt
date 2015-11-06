@@ -1,5 +1,4 @@
 c:\users\administador\documents\visual studio 2012\Projects\wpf\wpf\bin\Debug\wpf.exe.config
-c:\users\administador\documents\visual studio 2012\Projects\wpf\wpf\obj\Debug\wpf.csprojResolveAssemblyReference.cache
 c:\users\administador\documents\visual studio 2012\Projects\wpf\wpf\obj\Debug\MainWindow.baml
 c:\users\administador\documents\visual studio 2012\Projects\wpf\wpf\obj\Debug\MainWindow.g.cs
 c:\users\administador\documents\visual studio 2012\Projects\wpf\wpf\obj\Debug\App.g.cs
@@ -16,3 +15,6 @@ c:\users\administador\documents\visual studio 2012\Projects\wpf\wpf\bin\Debug\En
 c:\users\administador\documents\visual studio 2012\Projects\wpf\wpf\obj\Debug\wpf.exe
 c:\users\administador\documents\visual studio 2012\Projects\wpf\wpf\obj\Debug\wpf.pdb
 c:\users\administador\documents\visual studio 2012\Projects\wpf\wpf\obj\Debug\wpf.Migrations.EmpleadoTabla.resources
+C:\Users\administador\Documents\Visual Studio 2012\Projects\wpf\wpf\bin\Debug\Newtonsoft.Json.dll
+C:\Users\administador\Documents\Visual Studio 2012\Projects\wpf\wpf\bin\Debug\Newtonsoft.Json.xml
+C:\Users\administador\Documents\Visual Studio 2012\Projects\wpf\wpf\obj\Debug\wpf.Migrations.depsejemplo.resources
