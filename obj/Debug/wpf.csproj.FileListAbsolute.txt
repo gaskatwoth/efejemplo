@@ -18,3 +18,4 @@ c:\users\administador\documents\visual studio 2012\Projects\wpf\wpf\obj\Debug\wp
 C:\Users\administador\Documents\Visual Studio 2012\Projects\wpf\wpf\bin\Debug\Newtonsoft.Json.dll
 C:\Users\administador\Documents\Visual Studio 2012\Projects\wpf\wpf\bin\Debug\Newtonsoft.Json.xml
 C:\Users\administador\Documents\Visual Studio 2012\Projects\wpf\wpf\obj\Debug\wpf.Migrations.depsejemplo.resources
+C:\Users\administador\Documents\Visual Studio 2012\Projects\wpf\wpf\obj\Debug\wpf.csprojResolveAssemblyReference.cache

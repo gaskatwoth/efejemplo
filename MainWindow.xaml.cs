@@ -139,6 +139,14 @@ namespace wpf
             db.Departamentos.Add(dep);
             db.SaveChanges();
         }
+
+        private void Grid_Loaded_1(object sender, RoutedEventArgs e)
+        {
+            demoEf db = new demoEf();
+            Cbdepartamentos.ItemsSource = db.Departamentos.ToList();
+            Cbdepartamentos.DisplayMemberPath = "nombre";
+            Cbdepartamentos.SelectedValuePath = "id";
+        }
            
 
         }
