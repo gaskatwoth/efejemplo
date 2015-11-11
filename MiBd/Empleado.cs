@@ -11,5 +11,6 @@ namespace wpf.MiBd
         public int id { get; set; }
         public string nombre { get; set; }
         public int sueldo { get; set; }
+        public virtual int DepartamentoId { get; set; }
     }
 }

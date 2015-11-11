@@ -36,6 +36,7 @@ namespace wpf
             Empleado emp = new Empleado();
             emp.nombre = nombre.Text;
             emp.sueldo = int.Parse(sueldo.Text);
+            emp.DepartamentoId = (int)Cbdepartamentos.SelectedValue;
 
             db.Empleados.Add(emp);
             db.SaveChanges();
